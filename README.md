@@ -39,3 +39,26 @@ ESP32 Ali express 8 bucks - already ordered with own money
 4x4 matrix keyboard Ali express 5 bucks - already ordered with own money
 lcd screen ali express 6 bucks - already ordered with own money
 Jayo 4.4kg filament 50 bucks - already ordered with own money
+
+
+Code: (not final)
+
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
+
+LiquidCrystal_I2C lcd(0x27, 16, 2);
+
+void setup() {
+  Wire.begin(21, 22);
+
+  lcd.init();
+  lcd.backlight();
+
+  lcd.setCursor(0, 0);
+  lcd.print("Hello World!");
+
+}
+
+void loop() {
+}
+ 
