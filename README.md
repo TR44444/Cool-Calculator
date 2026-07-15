@@ -32,3 +32,10 @@ Modeled and printed a case, Hooked up LCD screen and currently wiring 4x4 matrix
 
 
 <img width="4032" height="3024" alt="image" src="https://github.com/user-attachments/assets/354603b7-1038-40b1-8327-1673736c15d3" />
+
+
+BOM:
+ESP32 Ali express 8 bucks - already ordered with own money
+4x4 matrix keyboard Ali express 5 bucks - already ordered with own money
+lcd screen ali express 6 bucks - already ordered with own money
+Jayo 4.4kg filament 50 bucks - already ordered with own money
